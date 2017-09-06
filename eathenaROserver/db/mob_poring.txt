@@ -1,0 +1,17 @@
+// mob_branch.txtのポリン版
+// MobID, MobName(Dummy), Rate
+// モンスターID、モンスターの名前(ダミー)、確率(*10000)をした物です。500000なら50%で1000000なら100%です。)
+// モンスターIDが0の場合確率をモンスターの選択に失敗した時に召還されるモンスターのIDとして認識します。(複数である場合最後の物だけ有効です。) 
+// クライアント側で未実装のものを書くとクライアントが重力エラー
+// そしてその敵がキャラクターの付近にいる間ログインできないので注意。
+
+0,PORING,Poring,1002
+1002,PORING,Poring,700000
+1062,SANTA_PORING,Santa Poring,200000
+1113,DROPS,Drops,500000
+1031,POPORING,Poporing,400000
+1242,MARIN,Marin,300000
+1090,MASTERING,Mastering,100000
+1120,GHOSTRING,Ghostring,50000
+1096,ANGELING,Angeling,50000
+1388,ARCHANGELING,Archangeling,10000
